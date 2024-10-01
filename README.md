@@ -1,6 +1,9 @@
 # Creating-a-3D-Textured-Cube-with-PyQt5-and-OpenGL
 This Python script creates a PyQt5 application with OpenGL rendering to display a rotating textured cube. It defines an OpenGLWindow class, inheriting from QOpenGLWidget, to handle the OpenGL context. The cube's faces are textured using images loaded via the PIL library. The script initializes OpenGL settings like enabling textures and loading images as textures. A QTimer is used to rotate the cube continuously by updating the angle every 16ms (approx. 60 FPS). The paintGL() method handles rendering each frame, while the cube's rotation creates an animated 3D effect.
 
+# Python Version
+Python 3.9.6
+
 # Required Libraries:
 pip install PyQt5 Pillow
 
