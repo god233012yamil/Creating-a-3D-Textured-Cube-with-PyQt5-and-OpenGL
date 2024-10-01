@@ -3,6 +3,7 @@ This Python script creates a PyQt5 application with OpenGL rendering to display 
 
 # Required Libraries:
 pip install PyQt5 Pillow
+
 pip install numpy==1.21.0 PyOpenGL==3.1.5 PyOpenGL_accelerate==3.1.5
 
 # Image
